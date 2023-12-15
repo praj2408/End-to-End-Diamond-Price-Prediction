@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import sys
 import os
-from src.DimondPricePrediction.logger import logging
-from src.DimondPricePrediction.exception import CustomException
+from src.DiamondPricePrediction.logger import logging
+from src.DiamondPricePrediction.exception import CustomException
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
@@ -32,7 +32,7 @@ class DataIngestion:
             data = pd.read_csv(Path(os.path.join("notebooks/data/gemstone.csv")))
             logging.info("Reading the dataset Completed")
             
-            os.makedirs(os.path.join(self.ingestion_config.raw_data_path), exist_ok=True)
+            os.makedirs(os.path.dirname(os.path.join(self.ingestion_config.raw_data_path)), exist_ok=True)
             data.to_csv(self.ingestion_config.raw_data_path, index=False)
             logging.info("Saved the raw dataset in artifacts directory")
             
