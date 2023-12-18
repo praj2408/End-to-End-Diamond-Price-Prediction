@@ -1,6 +1,6 @@
 # Diamond Price Prediction Project
 
-## Overview
+## Overview 
 
 This repository contains the code and resources for a data science project focused on predicting diamond prices. The goal of this project is to develop a machine learning model that can accurately predict the price of diamonds based on various features.
 
