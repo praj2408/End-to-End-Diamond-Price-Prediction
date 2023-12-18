@@ -97,22 +97,32 @@ class DataTransformation:
             target_column_name = "price"
             drop_columns = [target_column_name, "id"]
 
-            input_feature_train_df = train_df.drop(columns=drop_columns, axis=1)
-            target_feature_test_df = train_df[target_column_name]
+            input_feature_train_df = train_df.drop(
+                columns=drop_columns, axis=1
+            )  # X_train,
+            target_feature_train_df = train_df[target_column_name]  # Y_train
 
             input_feature_train_arr = preprocessing_obj.fit_transform(
                 input_feature_train_df
             )
-            input_feature_test_arr = preprocessing_obj.transform(target_feature_test_df)
+            input_feature_test_arr = preprocessing_obj.transform(input_feature_test_df)
 
             logging.info(
                 "Applying preprocessing object on training and testing datasets"
             )
 
+            train_arr = np.c_[
+                input_feature_train_arr, np.array(target_feature_train_df)
+            ]
+            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
+
             save_object(
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
-                obj=preprocessing_obj
+                obj=preprocessing_obj,
             )
+            logging.info("Preprocessing pickle file saved")
+
+            return (train_arr, test_arr)
 
         except Exception as e:
             logging.info("Error occured during DataTransformation stage")
