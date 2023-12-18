@@ -83,11 +83,6 @@ class DataTransformation:
             logging.info("Error occured during DataTransformation stage")
             raise CustomException(e, sys)
 
-    
-    
-   
-   
-   
     def initiate_data_transformation(self, train_path, test_path):
         try:
             train_df = pd.read_csv(train_path)
@@ -112,6 +107,11 @@ class DataTransformation:
 
             logging.info(
                 "Applying preprocessing object on training and testing datasets"
+            )
+
+            save_object(
+                file_path=self.data_transformation_config.preprocessor_obj_file_path,
+                obj=preprocessing_obj
             )
 
         except Exception as e:
