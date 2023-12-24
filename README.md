@@ -57,10 +57,10 @@ Install these dependencies using the provided `requirements.txt` file.
 
 ## Model
 
-The machine learning model used in this project is a Random Forest Regressor. The model is trained on the provided dataset and can be fine-tuned based on your specific requirements.
+The machine learning model used in this project is a Linear Regression. The model is trained on the provided dataset and can be fine-tuned based on your specific requirements.
 
 ## Results
-
+Linear Regression with 93.7% r2 score
 
 ## Contributing
 
