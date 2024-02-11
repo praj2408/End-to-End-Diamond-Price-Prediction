@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/End-to-End-Diamond-Price-Prediction/mlruns/0/8c81a61a567a4af7a2636e4bc6c4ef1e/artifacts
+end_time: 1707674244719
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c81a61a567a4af7a2636e4bc6c4ef1e
+run_name: kindly-doe-874
+run_uuid: 8c81a61a567a4af7a2636e4bc6c4ef1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707674244631
+status: 4
+tags: []
+user_id: prajw
