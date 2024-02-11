@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/End-to-End-Diamond-Price-Prediction/mlruns/0/85d32effe10d427aaa7efb0dda40d31b/artifacts
+end_time: 1707680939259
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85d32effe10d427aaa7efb0dda40d31b
+run_name: capable-duck-183
+run_uuid: 85d32effe10d427aaa7efb0dda40d31b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707680934981
+status: 3
+tags: []
+user_id: prajw
