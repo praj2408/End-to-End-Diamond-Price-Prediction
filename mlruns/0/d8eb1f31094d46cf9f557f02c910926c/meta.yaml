@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/End-to-End-Diamond-Price-Prediction/mlruns/0/d8eb1f31094d46cf9f557f02c910926c/artifacts
+end_time: 1707681098689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8eb1f31094d46cf9f557f02c910926c
+run_name: rumbling-frog-403
+run_uuid: d8eb1f31094d46cf9f557f02c910926c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707681093875
+status: 3
+tags: []
+user_id: prajw
