@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/End-to-End-Diamond-Price-Prediction/mlruns/0/dee2bf623be24b10a264a2f7f56eb625/artifacts
+end_time: 1707622446118
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dee2bf623be24b10a264a2f7f56eb625
+run_name: merciful-foal-226
+run_uuid: dee2bf623be24b10a264a2f7f56eb625
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707622446065
+status: 3
+tags: []
+user_id: prajw

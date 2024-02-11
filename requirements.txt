@@ -5,6 +5,6 @@ seaborn
 numpy
 ipykernel
 Flask
-
+dvc
 
 #-e .
